@@ -1,7 +1,23 @@
-.hero-img-wrapper {
-    width: 375px;
+.hero-img-box {
+    max-width: 500px;
     margin: 0 auto;
+
+    @media only screen and (min-width: 75em) {
+        max-width: revert;
+        background-image: url(./images/hero-desktop.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        grid-column: 2 / 3;
+        grid-row: 1 / 4;
+    }
 }
 
 .hero-img {
+    width: 100%;
+
+    @media only screen and (min-width: 75em) {
+        display: none;
+    }
 }

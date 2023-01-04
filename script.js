@@ -28,6 +28,7 @@ const valid = function () {
     }, 2000);
     errorIcon.style.opacity = "0";
     input.style.border = "1px solid rgba(238, 139, 139, 1)";
+    input.setAttribute("readonly", "readonly");
 };
 
 const invalid = function () {

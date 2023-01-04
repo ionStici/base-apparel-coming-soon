@@ -1,10 +1,26 @@
 .header {
-    max-width: 375px;
+    max-width: 500px;
     margin: 0 auto;
+
+    @media only screen and (min-width: 75em) {
+        margin: revert;
+        max-width: revert;
+    }
 }
 
 .logo {
     width: 100px;
     height: 21px;
     margin: 31px 32px 32px;
+
+    // 496/16=31
+    @media only screen and (min-width: 31em) {
+        width: revert;
+        height: revert;
+    }
+
+    @media only screen and (min-width: 75em) {
+        margin: 0;
+        margin-top: 75px;
+    }
 }
