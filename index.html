@@ -13,32 +13,33 @@
     <script src="./script.js" defer></script>
 </head>
 <body>
-
     <main class="main">
-
         <header class="header">
             <img class="logo" src="./images/logo.svg" alt="Logo">
         </header>
 
-        <img class="hero-img" src="./images/hero-mobile.jpg" alt="A beautiful woman">
+
+        <div class="hero-img-wrapper">
+            <img class="hero-img" src="./images/hero-mobile.jpg" alt="A woman">
+        </div>
+
         
         <section class="section-form">
-            <h1 class="h1">
+            <h1 class="h1 u-margin-bottom-16px">
                 <span class="h1--up">We're</span>
                 <span class="h1--middle">coming</span>
                 <span class="h1--down">soon</span>
             </h1>
             
-            <p class="paragraph">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+            <p class="paragraph u-margin-bottom-32px">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
             
             <form class="form">
                 <input class="form__input" type="text" placeholder="Email Address">
                 <svg class="form__error-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><circle cx="12" cy="12" r="12" fill="#F96464"/><path fill="#FFF" fill-rule="nonzero" d="M13.256 6v9.056h-2V6h2zm-.944 12.464c-.384 0-.699-.104-.944-.312a1.027 1.027 0 0 1-.368-.824c0-.33.125-.608.376-.832.25-.224.563-.336.936-.336.373 0 .68.112.92.336.24.224.36.501.36.832 0 .341-.117.616-.352.824-.235.208-.544.312-.928.312z"/></g></svg>
                 <button class="form__btn"><svg class="form__btn-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="20"><path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671"/></svg></button>
+                <p class="form__error-message">Please provide a valid email</p>
             </form>
         </section>
-        
     </main>
-
 </body>
 </html>

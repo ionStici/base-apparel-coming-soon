@@ -28,4 +28,44 @@ body {
     // background-image: url(./images/bg-pattern-desktop.svg);
 }
 
+.h1 {
+    color: #423a3a;
+    letter-spacing: 10.8254px;
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    &--up {
+        display: block;
+        font-weight: 300;
+        color: #ce9898;
+    }
+
+    &--middle {
+        display: block;
+    }
+
+    &--down {
+        display: block;
+    }
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ce9898;
+}
+
+// UTILITIES
+
+.u-margin-bottom-16px {
+    margin-bottom: 16px;
+}
+
+.u-margin-bottom-32px {
+    margin-bottom: 32px;
+}
+
 // END
