@@ -20,6 +20,7 @@
         font-size: 14px;
         line-height: 28px;
         color: #423a3a;
+        transition: box-shadow 0.2s, border 0.2s;
 
         &::placeholder {
             font-weight: 400;
@@ -27,6 +28,11 @@
             line-height: 28px;
             color: #ce9898;
             opacity: 0.5;
+        }
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 10px 30px -5px rgba(238, 139, 139, 0.25);
         }
     }
 
@@ -43,10 +49,16 @@
         border-radius: 50px;
         box-shadow: 0 15px 20px rgba(198, 110, 110, 0.2476);
         background-image: linear-gradient(to right bottom, #f8bfbf, #ee8b8b);
+        transition: box-shadow 0.2s;
 
         &-icon {
             margin-top: 2px;
             margin-left: 3px;
+        }
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 15px 20px rgba(198, 110, 110, 0.3476);
         }
     }
 
@@ -56,9 +68,10 @@
         transform: translateY(-50%);
         right: 72px;
         opacity: 0;
+        transition: 0.2s;
     }
 
-    &__error-message {
+    &__message {
         font-weight: 400;
         font-size: 13px;
         line-height: 13px;
@@ -68,5 +81,6 @@
         position: absolute;
         left: 24px;
         top: 56px;
+        transition: opacity 0.2s;
     }
 }

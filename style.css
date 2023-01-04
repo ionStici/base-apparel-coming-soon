@@ -93,6 +93,7 @@ body {
   font-size: 14px;
   line-height: 28px;
   color: #423a3a;
+  transition: box-shadow 0.2s, border 0.2s;
 }
 .form__input::placeholder {
   font-weight: 400;
@@ -100,6 +101,10 @@ body {
   line-height: 28px;
   color: #ce9898;
   opacity: 0.5;
+}
+.form__input:focus {
+  outline: none;
+  box-shadow: 0 10px 30px -5px rgba(238, 139, 139, 0.25);
 }
 .form__btn {
   position: absolute;
@@ -112,10 +117,15 @@ body {
   border-radius: 50px;
   box-shadow: 0 15px 20px rgba(198, 110, 110, 0.2476);
   background-image: linear-gradient(to right bottom, #f8bfbf, #ee8b8b);
+  transition: box-shadow 0.2s;
 }
 .form__btn-icon {
   margin-top: 2px;
   margin-left: 3px;
+}
+.form__btn:focus {
+  outline: none;
+  box-shadow: 0 15px 20px rgba(198, 110, 110, 0.3476);
 }
 .form__error-icon {
   position: absolute;
@@ -123,8 +133,9 @@ body {
   transform: translateY(-50%);
   right: 72px;
   opacity: 0;
+  transition: 0.2s;
 }
-.form__error-message {
+.form__message {
   font-weight: 400;
   font-size: 13px;
   line-height: 13px;
@@ -133,6 +144,7 @@ body {
   position: absolute;
   left: 24px;
   top: 56px;
+  transition: opacity 0.2s;
 }
 
 /*# sourceMappingURL=style.css.map */
