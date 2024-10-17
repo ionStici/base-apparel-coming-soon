@@ -1,59 +1,14 @@
-# Base Apparel coming soon page solution
+# Base Apparel Coming Soon Page Solution
 
-This is a solution to the [Base Apparel coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0).
+This is a solution to the [Base Apparel coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0). The goal is to replicate a simple, responsive "Coming Soon" page design for a fashion brand. The page features an email subscription form to notify users about the store launch.
 
-## Table of contents
+**Built with:** HTML, CSS/Scss, and JavaScript for form validation.
 
--   [Screenshot](#screenshot)
--   [Links](#links)
--   [Built with](#built-with)
--   [What I learned](#what-i-learned)
--   [Author](#author)
+**Features:** Responsive design optimized for both mobile and desktop & Email input validation.
 
-## Screenshot
+## Screenshot and Links
+
+| [Demo URL](https://ionstici.github.io/base-apparel-coming-soon) | [Frontend Mentor](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-92YwO0syBP) |
+| --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 
 ![](./images/screenshot.png)
-
-## Links
-
--   [Solution URL](https://github.com/ionStici/base-apparel-coming-soon-master)
--   [Live Site URL](https://ionstici.github.io/base-apparel-coming-soon-master/)
-
-## Built with
-
--   Semantic HTML5 markup
--   CSS Grid and Flexbox
--   Mobile-first workflow
-
-## What I learned
-
-[How to Do an Email Validation in JavaScript?](https://www.simplilearn.com/tutorials/javascript-tutorial/email-validation-in-javascript)
-
-## Author
-
--   [GitHub](https://github.com/ionStici)
--   [Frontend Mentor](https://www.frontendmentor.io/profile/ionStici)
--   [Twitter](https://twitter.com/ionStici_)
-
-<!-- ### Primary
-
-- Desaturated Red: hsl(0, 36%, 70%)
-- Soft Red: hsl(0, 93%, 68%)
-
-### Neutral
-
-- Dark Grayish Red: hsl(0, 6%, 24%)
-
-### Gradients
-
-- Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
-- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
-
-### Body Copy
-
-- Font size: 16px
-
-### Font
-
-- Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
-- Weights: 300, 400, 600 -->
